@@ -44,7 +44,7 @@ const GO_SVG = '<svg class="btn-ic" viewBox="0 0 24 24" fill="none" stroke="curr
 let grade = "regular",
   hist = FALLBACK,
   here = null,
-  selectedId = localStorage.getItem(KEYS.lastTap),
+  selectedId = null,
   loadState = "loading",
   chartDays = [],
   chartBy = {},
@@ -279,7 +279,12 @@ function render() {
   else { note.hidden = true; note.textContent = ""; }
   document.getElementById("emptyNote").textContent = emptyMessage(list.length, o && o.status);
   const selected = list.find((s) => s.id === selectedId) || null;
-  document.getElementById("chartTitle").textContent = selected ? "10-day · " + selected.name : "10-day chart";
+  document.getElementById("chartTitle").textContent = selected ? "10-day · " + selected.name : "10-day · cheapest 4";
+  const allBtn = document.getElementById("chartAll");
+  if (allBtn) {
+    allBtn.hidden = !selected;
+    allBtn.onclick = (e) => { e.preventDefault(); e.stopPropagation(); selectedId = null; render(); };
+  }
   const root = document.getElementById("stations");
   const paint = () => {
     root.innerHTML = "";
@@ -332,7 +337,6 @@ function render() {
       el.appendChild(right);
       const toggle = () => {
         selectedId = selectedId === s.id ? null : s.id;
-        if (selectedId) localStorage.setItem(KEYS.lastTap, selectedId);
         render();
       };
       el.addEventListener("click", toggle);

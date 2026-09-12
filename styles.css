@@ -128,3 +128,12 @@ canvas { width: 100%; height: 220px; display: block; touch-action: manipulation;
 @media (prefers-reduced-motion: reduce) {
   .seg-thumb, .station, .chev, .refreshing, .btn { transition: none; }
 }
+
+details.chart summary { justify-content: flex-start; }
+#chartTitle { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chart-all {
+  margin-left: auto; font: inherit; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--card2); color: var(--text); font-weight: 650; font-size: .78rem;
+  padding: 6px 10px; min-height: 32px; flex-shrink: 0;
+}
+.chart-all:active { transform: scale(0.98); }
