@@ -3,49 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Matt's Gas" />
   <meta name="theme-color" content="#0b1220" />
-  <link rel="manifest" href="manifest.json?v=3" />
-  <link rel="apple-touch-icon" href="icons/pump.svg" />
-  <link rel="icon" href="icons/pump.svg" />
+  <meta name="description" content="Cheapest regular and premium gas near Centennial, Littleton, and Greenwood Village." />
+  <link rel="manifest" href="manifest.json?v=4" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+  <link rel="icon" type="image/svg+xml" href="icons/pump.svg" />
   <title>Matt's Gas</title>
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
   <div class="top">
-    <h1>Matt's Gas</h1>
-    <div class="seg">
-      <button id="btnReg" class="on" type="button">Regular</button>
-      <button id="btnPrem" type="button">Premium</button>
+    <div class="brand">
+      <svg class="brand-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="3" y1="22" x2="15" y2="22"/><line x1="4" y1="9" x2="14" y2="9"/>
+        <path d="M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18"/>
+        <path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2 2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5"/>
+      </svg>
+      <h1>Matt's Gas</h1>
+    </div>
+    <div class="seg" id="seg" data-grade="regular">
+      <span class="seg-thumb" aria-hidden="true"></span>
+      <button id="btnReg" class="on" type="button" aria-pressed="true">Regular</button>
+      <button id="btnPrem" type="button" aria-pressed="false">Premium</button>
     </div>
   </div>
   <div class="wrap" id="scroller">
     <div class="refreshing" id="pullMsg">Release to refresh</div>
     <div class="actions">
-      <button class="btn" id="locBtn" type="button">Use location</button>
-      <button class="btn" id="editBtn" type="button">Edit</button>
-    </div>
-    <div class="edit" id="editBox">
-      <input id="label" placeholder="Label (Work)" />
-      <input id="query" placeholder="ZIP or city" />
-      <button class="btn" id="addPlace" type="button">Save place</button>
-      <div id="placeList"></div>
+      <button class="btn" id="locBtn" type="button">
+        <svg class="btn-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
+          <line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/>
+          <circle cx="12" cy="12" r="7"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        Use location
+      </button>
     </div>
     <p class="meta" id="stamp"></p>
+    <p class="hint warn" id="statusNote" hidden></p>
     <p class="hint" id="emptyNote"></p>
     <div id="stations"></div>
     <details class="chart" id="chartBox">
-      <summary>10-day chart</summary>
-      <canvas id="chart" width="720" height="400"></canvas>
+      <summary>
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        <span id="chartTitle">10-day chart</span>
+      </summary>
+      <div class="chart-stage">
+        <canvas id="chart" width="720" height="400"></canvas>
+        <div class="chart-tip" id="chartTip" hidden></div>
+        <p class="chart-hint" id="chartHint">Tap a day for the exact price</p>
+      </div>
       <div class="legend" id="legend"></div>
     </details>
   </div>
   <div class="coach" id="coach">
     <div class="card">
       <strong>Put this on the Home Screen</strong>
-      <p class="hint">Safari only. Tap Share, then Add to Home Screen.</p>
+      <p class="hint" id="coachHint">Use your browser menu, then Add to Home Screen.</p>
       <button class="btn" id="coachOk" type="button" style="width:100%;margin-top:8px">Got it</button>
     </div>
   </div>
@@ -57,6 +78,6 @@
       });
     }
   </script>
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
