@@ -5284,6 +5284,124 @@
           "source": "py-gasbuddy"
         }
       ]
+    },
+    {
+      "date": "2026-09-12",
+      "crawled_at": "2026-09-12T17:15:35-06:00",
+      "status": "ok",
+      "note": "py-gasbuddy tracked=10 premium=9/10",
+      "stations": [
+        {
+          "id": "imart-250",
+          "name": "iMart",
+          "addr": "250 E Dry Creek Rd",
+          "city": "Littleton",
+          "regular": 4.05,
+          "premium": 4.87,
+          "lat": 39.580165863037,
+          "lon": -104.984992980957,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "exxon-6556",
+          "name": "Exxon",
+          "addr": "6556 S Broadway",
+          "city": "Littleton",
+          "regular": 4.08,
+          "premium": 5.03,
+          "lat": 39.599415,
+          "lon": -104.98785,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "shell-8020",
+          "name": "Shell",
+          "addr": "8020 S Broadway",
+          "city": "Littleton",
+          "regular": 3.99,
+          "premium": 4.94,
+          "lat": 39.571491433652,
+          "lon": -104.987894296646,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "ks-holly",
+          "name": "King Soopers",
+          "addr": "8250 S Holly St",
+          "city": "Centennial",
+          "regular": 4.29,
+          "premium": 4.89,
+          "lat": 39.567232,
+          "lon": -104.92249,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "qt-7801",
+          "name": "QuikTrip",
+          "addr": "7801 E Arapahoe Rd",
+          "city": "Greenwood Village",
+          "regular": 4.11,
+          "premium": 4.71,
+          "lat": 39.5953979,
+          "lon": -104.8974177,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "murphy-12022",
+          "name": "Murphy USA",
+          "addr": "12022 E Arapahoe Rd",
+          "city": "Englewood",
+          "regular": 4.11,
+          "premium": 4.71,
+          "lat": 39.594529,
+          "lon": -104.848658,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "sinclair-7500",
+          "name": "Sinclair",
+          "addr": "7500 S Broadway",
+          "city": "Littleton",
+          "regular": 4.09,
+          "premium": 5.04,
+          "lat": 39.580292341674,
+          "lon": -104.987988173962,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "conoco-7450",
+          "name": "Conoco",
+          "addr": "7450 S. Colorado Blvd",
+          "city": "Littleton",
+          "regular": 4.19,
+          "premium": null,
+          "lat": 39.58176,
+          "lon": -104.94116,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "ks-8080",
+          "name": "King Soopers",
+          "addr": "8080 S Broadway",
+          "city": "Littleton",
+          "regular": 4.19,
+          "premium": 4.99,
+          "lat": 39.568153,
+          "lon": -104.988243,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "shell-6200sf",
+          "name": "Shell",
+          "addr": "6200 S Santa Fe Dr",
+          "city": "Littleton",
+          "regular": 4.29,
+          "premium": 5.24,
+          "lat": 39.603950223434,
+          "lon": -105.019769668579,
+          "source": "py-gasbuddy"
+        }
+      ]
     }
   ]
 }
