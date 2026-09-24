@@ -8,880 +8,6 @@
   "notes": "No SAMPLE or placeholder stations. Append one observation per successful crawl. Do not invent prices when a wall blocks the scrape.",
   "observations": [
     {
-      "date": "2026-09-10",
-      "crawled_at": "2026-09-10T11:01:45-06:00",
-      "status": "ok",
-      "note": "firecrawl+gasbuddy stations+lists; premium=12/47",
-      "stations": [
-        {
-          "id": "conoco-6450-s-broadway",
-          "name": "Conoco",
-          "addr": "6450 S Broadway",
-          "city": "Centennial",
-          "regular": 4.02,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-alta-convenience-7450-s-colorado-",
-          "name": "Conoco & Alta Convenience",
-          "addr": "7450 S. Colorado Blvd",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "phillips-66-15371-e-orchard-rd",
-          "name": "Phillips 66",
-          "addr": "15371 E Orchard Rd",
-          "city": "Centennial",
-          "regular": 4.19,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-5171-e-arapahoe-rd",
-          "name": "Circle K",
-          "addr": "5171 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": 5.29,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-8263-s-quebec-st",
-          "name": "Circle K",
-          "addr": "8263 S Quebec St",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": 5.29,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.29-4.39"
-        },
-        {
-          "id": "shell-2410",
-          "name": "Shell",
-          "addr": "2410 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": 5.24,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "maverik-11901-e-arapahoe-rd",
-          "name": "Maverik",
-          "addr": "11901 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.37,
-          "premium": 4.95,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.35-4.37"
-        },
-        {
-          "id": "circle-k-18565-e-smoky-hill-rd",
-          "name": "Circle K",
-          "addr": "18565 E Smoky Hill Rd",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "ks-holly",
-          "name": "King Soopers",
-          "addr": "8250 S Holly St",
-          "city": "Centennial",
-          "regular": 4.19,
-          "premium": 4.99,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7425-e-arapahoe-rd",
-          "name": "Circle K",
-          "addr": "7425 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": 5.29,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "imart-250-e-dry-creek-rd",
-          "name": "iMart",
-          "addr": "250 E Dry Creek Rd",
-          "city": "Littleton",
-          "regular": 3.93,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "sinclair-7500-s-broadway",
-          "name": "Sinclair",
-          "addr": "7500 S Broadway",
-          "city": "Littleton",
-          "regular": 3.95,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "mobil-6515-s-broadway",
-          "name": "Mobil",
-          "addr": "6515 S Broadway",
-          "city": "Littleton",
-          "regular": 3.98,
-          "premium": 4.93,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "shell-8020-s-broadway",
-          "name": "Shell",
-          "addr": "8020 S Broadway",
-          "city": "Littleton",
-          "regular": 3.99,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "bow-mart-5198-s-lowell-blvd",
-          "name": "Bow Mart",
-          "addr": "5198 S Lowell Blvd",
-          "city": "Littleton",
-          "regular": 4.09,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "mobil-5890-s-santa-fe-dr",
-          "name": "Mobil",
-          "addr": "5890 S Santa Fe Dr",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": 4.89,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "loaf-n-jug-8080-s-broadway",
-          "name": "Loaf 'N Jug",
-          "addr": "8080 S Broadway",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "safeway-181-w-mineral-ave",
-          "name": "Safeway",
-          "addr": "181 W Mineral Ave",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "phillips-66-8073-s-broadway",
-          "name": "Phillips 66",
-          "addr": "8073 S Broadway",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "exxon-6556",
-          "name": "Exxon",
-          "addr": "6556 S Broadway",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "mobil-8755-e-arapahoe-rd",
-          "name": "Mobil",
-          "addr": "8755 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "quiktrip-9281-e-arapahoe-rd",
-          "name": "QuikTrip",
-          "addr": "9281 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 3.98,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$3.98-4.35"
-        },
-        {
-          "id": "sinclair-7-eleven-9171-e-arapahoe-rd",
-          "name": "Sinclair & 7-Eleven",
-          "addr": "9171 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "711-dayton",
-          "name": "Conoco",
-          "addr": "6515 S Dayton St",
-          "city": "Greenwood Village",
-          "regular": 3.98,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$3.98-4.39"
-        },
-        {
-          "id": "loaf-n-jug-5950-s-holly-st",
-          "name": "Loaf 'N Jug",
-          "addr": "5950 S Holly St",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "quiktrip-7801-e-arapahoe-rd",
-          "name": "QuikTrip",
-          "addr": "7801 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "phillips-66-5096-s-yosemite-st",
-          "name": "Phillips 66",
-          "addr": "5096 S Yosemite St",
-          "city": "Greenwood Village",
-          "regular": 4.57,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7296-e-belleview-ave",
-          "name": "Circle K",
-          "addr": "7296 E Belleview Ave",
-          "city": "Greenwood Village",
-          "regular": 4.59,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7701-e-orchard-rd",
-          "name": "Circle K",
-          "addr": "7701 E Orchard Rd",
-          "city": "Greenwood Village",
-          "regular": 4.59,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "shell-5901",
-          "name": "Shell",
-          "addr": "5901 S University Blvd",
-          "city": "Greenwood Village",
-          "regular": 4.59,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "711-5898",
-          "name": "Conoco",
-          "addr": "5898 S Broadway",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "murphy-express-181-w-littleton-rd",
-          "name": "Murphy Express",
-          "addr": "181 W Littleton Rd",
-          "city": "Littleton",
-          "regular": 4.37,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "king-soopers-100-w-littleton-blvd",
-          "name": "King Soopers",
-          "addr": "100 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-5595-s-broadway",
-          "name": "Conoco",
-          "addr": "5595 S Broadway",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7550-s-university-blvd",
-          "name": "Circle K",
-          "addr": "7550 S University Blvd",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-7450-s-colorado-blvd",
-          "name": "Conoco",
-          "addr": "7450 S. Colorado Blvd",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": 5.59,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-6857-s-broadway",
-          "name": "Circle K",
-          "addr": "6857 S Broadway",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "murphy-briarwood",
-          "name": "Murphy Express",
-          "addr": "11005 E Briarwood Ave.",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.37-4.39"
-        },
-        {
-          "id": "circle-k-10553-e-briarwood-cir",
-          "name": "Circle K",
-          "addr": "10553 E Briarwood Cir",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": 5.29,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-10210-e-arapahoe-rd",
-          "name": "Conoco",
-          "addr": "10210 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.37,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "murphy-express-181-w-littleton-blvd",
-          "name": "Murphy Express",
-          "addr": "181 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 3.98,
-          "premium": 4.99,
-          "source": "gasbuddy conflict",
-          "conflict": "$3.98-4.39"
-        },
-        {
-          "id": "conoco-1009-w-littleton-blvd",
-          "name": "Conoco",
-          "addr": "1009 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "valero-7799-e-arapahoe-rd",
-          "name": "Valero",
-          "addr": "7799 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 3.99,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$3.99-4.41"
-        },
-        {
-          "id": "shell-6200-s-santa-fe-dr",
-          "name": "Shell",
-          "addr": "6200 S Santa Fe Dr",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": 4.84,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-1599-w-littleton-blvd",
-          "name": "Circle K",
-          "addr": "1599 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-3694-w-bowles-ave",
-          "name": "Circle K",
-          "addr": "3694 W Bowles Ave",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "quiktrip-2338-w-belleview-ave",
-          "name": "QuikTrip",
-          "addr": "2338 W Belleview Ave",
-          "city": "Littleton",
-          "regular": 3.99,
-          "premium": null,
-          "source": "gasbuddy"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "crawled_at": "2026-09-10T19:10:28-06:00",
-      "status": "ok",
-      "note": "firecrawl+gasbuddy stations+lists; premium=11/47",
-      "stations": [
-        {
-          "id": "conoco-7450-s-colorado-blvd",
-          "name": "Conoco",
-          "addr": "7450 S. Colorado Blvd",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": 5.59,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "maverik-11901-e-arapahoe-rd",
-          "name": "Maverik",
-          "addr": "11901 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.23,
-          "premium": 4.95,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.23-4.35"
-        },
-        {
-          "id": "circle-k-7425-e-arapahoe-rd",
-          "name": "Circle K",
-          "addr": "7425 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.23,
-          "premium": 5.29,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "ks-holly",
-          "name": "King Soopers",
-          "addr": "8250 S Holly St",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": 4.99,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-8263-s-quebec-st",
-          "name": "Circle K",
-          "addr": "8263 S Quebec St",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": 5.19,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "shell-2410",
-          "name": "Shell",
-          "addr": "2410 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": 5.24,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-6450-s-broadway",
-          "name": "Conoco",
-          "addr": "6450 S Broadway",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7550-s-university-blvd",
-          "name": "Circle K",
-          "addr": "7550 S University Blvd",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.29-4.39"
-        },
-        {
-          "id": "phillips-66-15371-e-orchard-rd",
-          "name": "Phillips 66",
-          "addr": "15371 E Orchard Rd",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-18565-e-smoky-hill-rd",
-          "name": "Circle K",
-          "addr": "18565 E Smoky Hill Rd",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "imart-250-e-dry-creek-rd",
-          "name": "iMart",
-          "addr": "250 E Dry Creek Rd",
-          "city": "Littleton",
-          "regular": 393.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "sinclair-7500-s-broadway",
-          "name": "Sinclair",
-          "addr": "7500 S Broadway",
-          "city": "Littleton",
-          "regular": 395.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "mobil-6515-s-broadway",
-          "name": "Mobil",
-          "addr": "6515 S Broadway",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.29-398.00"
-        },
-        {
-          "id": "shell-8020-s-broadway",
-          "name": "Shell",
-          "addr": "8020 S Broadway",
-          "city": "Littleton",
-          "regular": 399.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "bow-mart-5198-s-lowell-blvd",
-          "name": "Bow Mart",
-          "addr": "5198 S Lowell Blvd",
-          "city": "Littleton",
-          "regular": 409.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "mobil-5890-s-santa-fe-dr",
-          "name": "Mobil",
-          "addr": "5890 S Santa Fe Dr",
-          "city": "Littleton",
-          "regular": 4.19,
-          "premium": 4.99,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.19-419.00"
-        },
-        {
-          "id": "loaf-n-jug-8080-s-broadway",
-          "name": "Loaf 'N Jug",
-          "addr": "8080 S Broadway",
-          "city": "Littleton",
-          "regular": 419.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "safeway-181-w-mineral-ave",
-          "name": "Safeway",
-          "addr": "181 W Mineral Ave",
-          "city": "Littleton",
-          "regular": 419.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "phillips-66-8073-s-broadway",
-          "name": "Phillips 66",
-          "addr": "8073 S Broadway",
-          "city": "Littleton",
-          "regular": 419.0,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "exxon-6556",
-          "name": "Exxon",
-          "addr": "6556 S Broadway",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "mobil-8755-e-arapahoe-rd",
-          "name": "Mobil",
-          "addr": "8755 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "quiktrip-9281-e-arapahoe-rd",
-          "name": "QuikTrip",
-          "addr": "9281 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.35,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "sinclair-9171-e-arapahoe-rd",
-          "name": "Sinclair",
-          "addr": "9171 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "711-dayton",
-          "name": "Conoco",
-          "addr": "6515 S Dayton St",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "loaf-n-jug-5950-s-holly-st",
-          "name": "Loaf 'N Jug",
-          "addr": "5950 S Holly St",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "quiktrip-7801-e-arapahoe-rd",
-          "name": "QuikTrip",
-          "addr": "7801 E Arapahoe Rd",
-          "city": "Greenwood Village",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "phillips-66-5096-s-yosemite-st",
-          "name": "Phillips 66",
-          "addr": "5096 S Yosemite St",
-          "city": "Greenwood Village",
-          "regular": 4.57,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7296-e-belleview-ave",
-          "name": "Circle K",
-          "addr": "7296 E Belleview Ave",
-          "city": "Greenwood Village",
-          "regular": 4.59,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-7701-e-orchard-rd",
-          "name": "Circle K",
-          "addr": "7701 E Orchard Rd",
-          "city": "Greenwood Village",
-          "regular": 4.59,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "shell-5901",
-          "name": "Shell",
-          "addr": "5901 S University Blvd",
-          "city": "Greenwood Village",
-          "regular": 4.59,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "711-5898",
-          "name": "Conoco",
-          "addr": "5898 S Broadway",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "murphy-express-181-w-littleton-rd",
-          "name": "Murphy Express",
-          "addr": "181 W Littleton Rd",
-          "city": "Littleton",
-          "regular": 4.37,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "king-soopers-100-w-littleton-blvd",
-          "name": "King Soopers",
-          "addr": "100 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-5595-s-broadway",
-          "name": "Conoco",
-          "addr": "5595 S Broadway",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-6857-s-broadway",
-          "name": "Circle K",
-          "addr": "6857 S Broadway",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "murphy-briarwood",
-          "name": "Murphy Express",
-          "addr": "11005 E Briarwood Ave.",
-          "city": "Centennial",
-          "regular": 4.32,
-          "premium": null,
-          "source": "gasbuddy conflict",
-          "conflict": "$4.32-4.37"
-        },
-        {
-          "id": "circle-k-10553-e-briarwood-cir",
-          "name": "Circle K",
-          "addr": "10553 E Briarwood Cir",
-          "city": "Centennial",
-          "regular": 4.39,
-          "premium": 5.29,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-10210-e-arapahoe-rd",
-          "name": "Conoco",
-          "addr": "10210 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.37,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "murphy-express-181-w-littleton-blvd",
-          "name": "Murphy Express",
-          "addr": "181 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": 4.99,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "conoco-1009-w-littleton-blvd",
-          "name": "Conoco",
-          "addr": "1009 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "auto-care-center-1200-w-littleton-blvd",
-          "name": "Auto Care Center",
-          "addr": "1200 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": null,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "valero-7799-e-arapahoe-rd",
-          "name": "Valero",
-          "addr": "7799 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.41,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "shell-6200-s-santa-fe-dr",
-          "name": "Shell",
-          "addr": "6200 S Santa Fe Dr",
-          "city": "Littleton",
-          "regular": 4.29,
-          "premium": 4.84,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-1599-w-littleton-blvd",
-          "name": "Circle K",
-          "addr": "1599 W Littleton Blvd",
-          "city": "Littleton",
-          "regular": 4.39,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-3694-w-bowles-ave",
-          "name": "Circle K",
-          "addr": "3694 W Bowles Ave",
-          "city": "Littleton",
-          "regular": 4.38,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "quiktrip-2338-w-belleview-ave",
-          "name": "QuikTrip",
-          "addr": "2338 W Belleview Ave",
-          "city": "Littleton",
-          "regular": 4.33,
-          "premium": null,
-          "source": "gasbuddy"
-        },
-        {
-          "id": "circle-k-5171-e-arapahoe-rd",
-          "name": "Circle K",
-          "addr": "5171 E Arapahoe Rd",
-          "city": "Centennial",
-          "regular": 4.29,
-          "premium": 5.29,
-          "source": "gasbuddy"
-        }
-      ]
-    },
-    {
       "date": "2026-09-11",
       "crawled_at": "2026-09-11T11:03:35-06:00",
       "status": "ok",
@@ -5140,6 +4266,124 @@
           "city": "Greenwood Village",
           "regular": 4.09,
           "premium": 4.66,
+          "lat": 39.5953979,
+          "lon": -104.8974177,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "murphy-12022",
+          "name": "Murphy USA",
+          "addr": "12022 E Arapahoe Rd",
+          "city": "Englewood",
+          "regular": 4.03,
+          "premium": 4.68,
+          "lat": 39.594529,
+          "lon": -104.848658,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "sinclair-7500",
+          "name": "Sinclair",
+          "addr": "7500 S Broadway",
+          "city": "Littleton",
+          "regular": 4.07,
+          "premium": 4.94,
+          "lat": 39.580292341674,
+          "lon": -104.987988173962,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "conoco-7450",
+          "name": "Conoco",
+          "addr": "7450 S. Colorado Blvd",
+          "city": "Littleton",
+          "regular": null,
+          "premium": null,
+          "lat": 39.58176,
+          "lon": -104.94116,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "ks-8080",
+          "name": "King Soopers",
+          "addr": "8080 S Broadway",
+          "city": "Littleton",
+          "regular": 4.19,
+          "premium": 4.99,
+          "lat": 39.568153,
+          "lon": -104.988243,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "shell-6200sf",
+          "name": "Shell",
+          "addr": "6200 S Santa Fe Dr",
+          "city": "Littleton",
+          "regular": 4.09,
+          "premium": 5.04,
+          "lat": 39.603950223434,
+          "lon": -105.019769668579,
+          "source": "py-gasbuddy"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "crawled_at": "2026-09-24T07:15:38-06:00",
+      "status": "ok",
+      "note": "py-gasbuddy tracked=10 premium=8/10",
+      "stations": [
+        {
+          "id": "imart-250",
+          "name": "iMart",
+          "addr": "250 E Dry Creek Rd",
+          "city": "Littleton",
+          "regular": 3.99,
+          "premium": 4.89,
+          "lat": 39.580165863037,
+          "lon": -104.984992980957,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "exxon-6556",
+          "name": "Exxon",
+          "addr": "6556 S Broadway",
+          "city": "Littleton",
+          "regular": 4.04,
+          "premium": null,
+          "lat": 39.599415,
+          "lon": -104.98785,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "shell-8020",
+          "name": "Shell",
+          "addr": "8020 S Broadway",
+          "city": "Littleton",
+          "regular": 4.09,
+          "premium": 5.04,
+          "lat": 39.571491433652,
+          "lon": -104.987894296646,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "ks-holly",
+          "name": "King Soopers",
+          "addr": "8250 S Holly St",
+          "city": "Centennial",
+          "regular": 4.49,
+          "premium": 5.09,
+          "lat": 39.567232,
+          "lon": -104.92249,
+          "source": "py-gasbuddy"
+        },
+        {
+          "id": "qt-7801",
+          "name": "QuikTrip",
+          "addr": "7801 E Arapahoe Rd",
+          "city": "Greenwood Village",
+          "regular": 4.05,
+          "premium": 4.65,
           "lat": 39.5953979,
           "lon": -104.8974177,
           "source": "py-gasbuddy"
